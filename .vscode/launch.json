@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "C:\\Ruby27-x64\\bin\\wti.bat"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Generator<api>",
+            "request": "launch",
+            "mainClass": "com.openwt.corona.api.app.Generator",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Swagger<api>",
+            "request": "launch",
+            "mainClass": "com.openwt.corona.api.app.Swagger",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Validator<api>",
+            "request": "launch",
+            "mainClass": "com.openwt.corona.api.app.Validator",
+            "projectName": "api"
+        }
+    ]
+}
